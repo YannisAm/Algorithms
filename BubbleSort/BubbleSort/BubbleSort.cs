@@ -17,6 +17,8 @@ namespace BubbleSort
                 _data = data;
                 
             }
+            else
+                Console.WriteLine("Please use an array that is not empty");
         }
 
         public void Sort()
